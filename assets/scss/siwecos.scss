@@ -1,0 +1,66 @@
+/*
+Plugin Name: SIWECOS
+Plugin URI:  https://siwecos.de
+Version:      1.0.0
+Description: Validate your Wordpress Homepage against the SIWECOS security check
+Author:      Benjamin Trenkle
+Author URI:  https:/www.wicked-software.de
+License:     GPL2
+
+SIWECOS is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+any later version.
+
+SIWECOS is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with SIWECOS. If not, see LICENCE file.
+*/
+
+#siwecos-form {
+}
+
+#siwecos-validation {
+	.gauge-box {
+		position: relative;
+		float: left;
+		margin-right: 16px;
+		position: relative;
+		margin-top: 20px;
+		padding: .7em 2em 1em;
+		min-width: 200px;
+		max-width: 520px;
+		border: 1px solid #e5e5e5;
+		box-shadow: 0 1px 1px rgba(0,0,0,.04);
+		background: #fff;
+		.GaugeMeter {
+			margin: 0 auto;
+			position: relative;
+		}
+		span {
+			position: absolute;
+			width: 100%;
+			text-align: center;
+			top: 0;
+			left: 0;
+		}
+		.scanner-name {
+			font-size: 20px;
+			text-align: center;
+		}
+	}
+	.siwecos-buttons {
+		margin-top: 24px;
+		text-align: right;
+		.button-link {
+			float: left;
+		}
+		.button {
+			font-size: 18px;
+		}
+	}
+}
