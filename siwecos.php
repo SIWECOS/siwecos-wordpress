@@ -2,7 +2,7 @@
 /*
 Plugin Name: SIWECOS
 Plugin URI:  https://www.siwecos.de
-Version:      1.0.0
+Version:     1.0.0
 Description: Validate your Wordpress site against the SIWECOS.de security check
 Author:      SIWECOS.de
 Author URI:  https:/www.siwecos.de

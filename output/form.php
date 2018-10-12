@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: SIWECOS
-Plugin URI:  https://siwecos.de
-ersion:      1.0.0
-Description: Validate your Wordpress Homepage against the SIWECOS security check
-Author:      Benjamin Trenkle
-Author URI:  https:/www.wicked-software.de
+Plugin URI:  https://www.siwecos.de
+Version:     1.0.0
+Description: Validate your Wordpress site against the SIWECOS.de security check
+Author:      SIWECOS.de
+Author URI:  https:/www.siwecos.de
 License:     GPL2
 
 SIWECOS is free software: you can redistribute it and/or modify
