@@ -22,6 +22,10 @@ This plugin makes it much easier to use WordPress with SIWECOS by providing two 
 - Easier onboarding: the verification handshake with SIWECOS is automated by the plugin, no need to upload specially named files
 - Direct access to results: you\'ll get access to your current SIWECOS score right from the backend of your WordPress site
 
+Please note:
+The actual scanning functionality is done by siwecos.de, this plugin retrieves result data from this service - the plugin itself is not able to work without the data fetched from the service.
+You can find the service's general terms and conditions here: https://siwecos.de/en/terms-and-conditions
+SIWECOS' privacy policy is found here: https://international.eco.de/legal-notice/privacy-policy/
 
 
 == Installation ==

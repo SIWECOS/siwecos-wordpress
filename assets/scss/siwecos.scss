@@ -1,12 +1,4 @@
 /*
-Plugin Name: SIWECOS
-Plugin URI:  https://www.siwecos.de
-Version:     1.0.0
-Description: Validate your Wordpress site against the SIWECOS.de security check
-Author:      SIWECOS.de
-Author URI:  https:/www.siwecos.de
-License:     GPL2
-
 SIWECOS is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 2 of the License, or
