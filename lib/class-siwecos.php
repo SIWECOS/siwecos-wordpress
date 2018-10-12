@@ -78,9 +78,10 @@ class SIWECOS {
 	}
 
 	public function create_menu() {
-		add_menu_page(
-			'SEWECOS Validator',
-			'SEWECOS',
+		add_submenu_page(
+			'tools.php',
+			'SIWECOS Validator',
+			'SIWECOS',
 			'manage_options',
 			'siwecos',
 			array( new SIWECOSView, 'display' )
