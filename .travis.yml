@@ -14,7 +14,7 @@ php:
 
 before_script:
   - composer install
-  - ./vendor/bin/phpcs --config-set installed_paths ./vendor/wp-coding/standards/wpcs
+  - ./vendor/bin/phpcs --config-set installed_paths /home/travis/build/SIWECOS/siwecos-wordpress/vendor/wp-coding/standards/wpcs
 
 script:
   - ./vendor/bin/phpcs --standard=WordPress-Core siwecos.php lib/*.php output/*.php
