@@ -50,7 +50,7 @@ if ( ! defined( 'WP_ADMIN' ) || ! current_user_can( 'manage_options' ) ) {
 		<?php endforeach; ?>
 		<div class="clear"></div>
 		<div class="siwecos-buttons">
-			<a href="https://www.siwecos.de/app/#/domains" target="_blank" class="button button-link large">siwecos.de</a>
+			<a href="https://www.siwecos.de/app/#/domains" target="_blank" class="button button-primary large"><?php echo __( 'Open siwecos.de' ); ?></a>
 			<a href="<?php echo admin_url( '/admin.php?page=siwecos&action=scan' ); ?>" class="button button-primary large"><?php echo __( 'Scan again' ); ?></a>
 		</div>
 	<?php endif; ?>
