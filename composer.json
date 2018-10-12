@@ -1,0 +1,11 @@
+{
+    "name": "siwecos/siwecos-wordpress",
+    "description": "SIWECOS Plugin for WP",
+    "type": "project",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.9.1",
+        "wp-coding-standards/wpcs": "^1.1"
+    },
+    "license": "GPLv2",
+    "require": {}
+}
