@@ -47,7 +47,7 @@ $title = 'SIWECOS';
 				<td colspan="2">
 					<div class="siwecos-buttons">
 						<?php submit_button(); ?>
-						<a href="https://www.siwecos.de/app/#/register" target="_blank" class="button button-link"><?php echo __( 'Register on siwecos.de' ); ?></a>
+						<a href="https://www.siwecos.de/app/#/register" target="_blank" class="button button-link"><?php echo __( 'Register on siwecos.de', 'siwecos' ); ?></a>
 					</div>
 				</td>
 			</tr>

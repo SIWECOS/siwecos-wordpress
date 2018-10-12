@@ -46,6 +46,8 @@ class SIWECOS {
 
 		$page = filter_input( INPUT_GET, 'page' );
 
+		load_plugin_textdomain( 'siwecos', false, 'siwecos/languages' );
+
 		if ( is_admin() && 'siwecos' === $page ) {
 
 			$nonce    = filter_input( INPUT_POST, '_wpnonce' );

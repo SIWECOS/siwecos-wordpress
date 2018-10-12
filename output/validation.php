@@ -31,14 +31,14 @@ if ( ! defined( 'WP_ADMIN' ) || ! current_user_can( 'manage_options' ) ) {
 <div id="siwecos-validation" class="wrap">
 	<h1>SIWECOS</h1>
 	<?php if ( empty( $result ) ) : ?>
-	<?php echo __( 'The scan is in progress, please refresh the page and try again' ); ?>
+	<?php echo __( 'The scan is in progress, please refresh the page and try again', 'siwecos' ); ?>
 	<?php else : ?>
 		<div class="gauge-box">
             <?php // @codingStandardsIgnoreLine ?>
 			<div class="GaugeMeter" data-size="500" data-width="20" data-style="Arch" data-animate_gauge_colors="1" data-percent="<?php echo round( $result->weightedMedia ); ?>">
 
 			</div>
-			<div class="scanner-name"><?php echo esc_html( __( 'Result' ) ); ?></div>
+			<div class="scanner-name"><?php echo esc_html( __( 'Result', 'siwecos' ) ); ?></div>
 		</div>
 		<?php foreach ( $result->scanners as $id => $scanner ) : ?>
 		<div class="gauge-box">
@@ -50,8 +50,8 @@ if ( ! defined( 'WP_ADMIN' ) || ! current_user_can( 'manage_options' ) ) {
 		<?php endforeach; ?>
 		<div class="clear"></div>
 		<div class="siwecos-buttons">
-			<a href="https://www.siwecos.de/app/#/domains" target="_blank" class="button button-primary large"><?php echo __( 'Open siwecos.de' ); ?></a>
-			<a href="<?php echo admin_url( '/admin.php?page=siwecos&action=scan' ); ?>" class="button button-primary large"><?php echo __( 'Scan again' ); ?></a>
+			<a href="https://www.siwecos.de/app/#/domains" target="_blank" class="button button-primary large"><?php echo __( 'Open siwecos.de', 'siwecos' ); ?></a>
+			<a href="<?php echo admin_url( '/admin.php?page=siwecos&action=scan' ); ?>" class="button button-primary large"><?php echo __( 'Scan again', 'siwecos' ); ?></a>
 		</div>
 	<?php endif; ?>
 </div>
