@@ -2,7 +2,7 @@
 /*
 Plugin Name: SIWECOS
 Plugin URI:  https://www.siwecos.de
-Version:     1.0.0
+Version:     1.0.1
 Description: Validate your WordPress site against the SIWECOS.de security check
 Author:      SIWECOS.de
 Author URI:  https:/www.siwecos.de
@@ -38,7 +38,7 @@ function run_siwecos() {
 	define( 'SIWECOS_LIB_DIR', trailingslashit( SIWECOS_PLUGIN_DIR . 'lib' ) );
 	define( 'SIWECOS_VIEW_DIR', trailingslashit( SIWECOS_PLUGIN_DIR . 'output' ) );
 
-	define( 'SIWECOS_API_URL', 'https://api.siwecos.de/bla/current/public/api/v1' );
+	define( 'SIWECOS_API_URL', 'https://bla.siwecos.de/api/v1' );
 
 	require SIWECOS_LIB_DIR . 'class-siwecos.php';
 	require SIWECOS_LIB_DIR . 'class-siwecosrequest.php';
